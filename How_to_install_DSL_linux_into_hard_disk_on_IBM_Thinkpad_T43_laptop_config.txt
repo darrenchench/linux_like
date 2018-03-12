@@ -1,0 +1,55 @@
+How to install DSL linux into hard disk on IBM Thinkpad T43 laptop.
+DSL is less than 50M,kernel is 2.4 with apt,gui.
+DSL is very suitable OS for vintage computer.
+
+1.download DSl 4.11.RC2 livecd ISO (http://damnsmalllinux.org/download.html)
+2.download rufus(https://rufus.akeo.ie) to write the iso into usb.
+3.use the bootable usb to boot T43 by hitting F12 to show the boot list/choose the usb when starting 
+4.hit Enter when prompt is boot:  -> then su -s  ->then input install & hit Enter
+5.using fdisk or cfdisk to make partition/make filesytem.
+6.Enter the target partition. (EXAMPLE: hda2): hda1 &hit Enter
+  Do you wish to support multi-user logins? n
+  Use journalized ext3 filesystem? n
+  Continue? y
+  Proceed to install a boot loader? y
+  Use [G]rub MBR or [L]ilo Active Partition? g
+  Reboot now? y
+  Wait for CD to eject -> hit Enter 
+7.after reboot,
+root password：qawsed
+Enter new password: qawsed&hit Enter
+Re-enter new password: qawsed&hit Enter
+user dsl password:qawsed&hit Enter
+Enter new password: qawsed&hit Enter
+Re-enter new password: qawsed&hit Enter
+DSL x Setup: Xvesa < OK >, USB mouse? < No >, IMPS/2 mouse wheel? < No >, Please choose your mouse port below: <Cancel>
+
+
+How to install wireless net card ipw2200(Intel Pro Wireless 2200) driver.
+1.download mydslinfo.bz2 (http://distro.ibiblio.org/damnsmall/mydsl/mydslinfo.bz2) unzip it and find the location of ipw2200 driver file
+2.download the ips2200 driver ipw2200-k2.4.31.dsl(http://distro.ibiblio.org/damnsmall/mydsl/system/)
+3.install the driver&insmod&scan&link up the eth0 by using "ip link set wlan0 up"
+$ sudo su
+  /etc/init.d/mydsl-install ipw2200-k2.4.31.dsl
+  /home/dsl/depmodscript.sh
+  depmod
+  modprobe ipw2200
+  exit
+  $ sudo iwlist eth1 scan
+4.vi /etc/wpa_supplicant.conf
+   network{
+       ssid="xxxx"
+       psk="22222222"
+   }
+5.wpa_supplicant -B -Dipw -i wlan0 -c /etc/wpa_supplicant.conf
+6.pump -i eth0--->this is the dhcpclient command in DSL
+7.ifconfig -a
+
+
+How to run in level 3 other than 5_that is without gui to save resource
+1.To restore Apt, open the menu and go Apps >> Tools >> Enable Apt
+2.change /etc/inittab:
+from 1:12345:respawn:/bin/bash -login >/dev/tty1 2>&1 </dev/tty1
+to 1:12345:respawn:/sbin/getty 38400 tty1
+3.rm /home/dsl/.bash_profile /root/.bash_profile /.bash_profile
+4.apt-get install gcc g++ openjava python etc.
