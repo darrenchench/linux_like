@@ -16,6 +16,36 @@ DSL---smallest linux less than 50M with/without gui,best suitable for vintage la
 Raspberry Pi--good one with open sorce hardware, tiny/powerfull/tailorable
 
 --------to be continued------------------------------
+centos511X64xampp
+centos5.11X64
+cisco_simulator_iou-web
+eComStation2.0GA.EN
+feedbottle_linux
+freebsd10.3
+FreeDos11
+haiku-r1alpha3
+Icaros_131
+iou-web-ovf
+mininet
+Plan9
+qnx-632
+reactos0.4
+SDN_tutorial_VM_64bit.ova
+solaris11
+Syllable-0.6.6-i586
+ubuntu-desktop16.04
+ubuntu-serverX64_1604
+xp-fr-sp3
+xp-sp3-cn
+xp-sp3-cn_new - copia
+xp32-jp-prosp3
+xp_es_sp3
+├vm_centos_5.5
+centos_5.5---back
+free_bsd_82_release
+SLES10
+ubuntu_desktop_10.10
+
 Mint
 Manjaro
 Debian
