@@ -1,0 +1,118 @@
+WindowsAll--The most popular os in the world now desktop/laptop/pad,also has the market share 35% in servers/industry/manufacture.it has the most softwares/tools.Daily use for learning/internet/relax. User-friendly other than developer-friendly cause it is not open-source/complexity programming.As a server,I think it is not a good choice cause it is not very stable for long time running.Maybe one-day it would pulic its source code,I am sure it would be very sophiscated/genius.
+Ubuntu---The most popular linux distribution version. Easy to use.And rising in web server market cause many startup using latest ruby2/js/pytjon3 version to deploy their aplication/service.Eating up the market share of centos/redhat.The gui desktop is changing from 1 verion to another constantly.
+Centos/redhat--The stable linux server with reliable support. It has the market share of 35%.
+MacOS---Based of BSD Unix,gui is quite shinning,sometimes a little confusing.and why the macos hides all the directories from ordinary users.For developping is good choice with its unix nature.
+Freebsd/netBSD/OpenBSD/TrueOS---Still has some market share in the web servers less than 10% cause its stable/simple.
+Solaris---Installing/tuning/monitoring in the telecom company,slow ,stable,old school.
+HPUX---Installing/tuning/monitoring in the telecom company,slow ,stable,old school.
+IBM AIX---Installing/tuning/monitoring in the telecom company,slow ,stable,old school.
+ios---Closed source (proprietary software) worse example of monopoly.shortage of the apps/battary/sim card/memory/freedom.
+Android---open source ,and ample of apps/battary/sim card/memory/freedom
+SLE---stable,mediocre
+turbo linux---mediocre
+winderriver linux--- running on network switches/routers.must-have
+LFS--Linux from scratch, at least need 2 weeks to compile,give a clear view of linux architecture. 
+DSL---smallest linux less than 50M with/without gui,best suitable for vintage laptop/desktop.bonus is the apt enable.
+Raspberry Pi--good one with open sorce hardware, tiny/powerfull/tailorable
+
+--------to be continued------------------------------
+Mint
+Manjaro
+Debian
+Ubuntu
+Solus
+Antergos
+elementary
+Fedora
+TrueOS
+openSUSE
+MX Linux
+Zorin
+CentOS
+Kali
+Arch
+antiX
+ReactOS
+PCLinuxOS
+Lite
+deepin
+Puppy
+Lubuntu
+KDE neon
+Ubuntu MATE
+Peppermint
+Mageia
+SmartOS
+Parrot
+SparkyLinux
+FreeBSD
+Slackware
+Q4OS
+Tails
+ArchLabs
+Xubuntu
+Devuan
+LXLE
+feren
+Android-x86
+Endless
+Bodhi
+Gentoo
+ArchBang
+KNOPPIX
+Bluestar
+Kubuntu
+Ubuntu Budgie
+4MLinux
+Redcore
+Sabayon
+Qubes
+Gecko
+KaOS
+Lakka
+Red Hat
+Black Lab
+ROSA
+Netrunner
+Tiny Core
+Slax
+GhostBSD
+BlackArch
+Absolute
+ClearOS
+Calculate
+Robolinux
+DragonFly
+Ultimate
+Korora
+NixOS
+LibreELEC
+Ubuntu Studio
+NuTyX
+Alpine
+siduction
+Voyager
+wattOS
+ExTiX
+Chakra
+Clonezilla
+Emmabuntüs
+Porteus
+Elive
+Parabola
+OpenBSD
+SolydXK
+AUSTRUMI
+SteamOS
+Nitrux
+Revenge
+OpenMandriva
+SwagArch
+Vector
+Ubuntu DP
+Container
+Trisquel
+BackBox
+Maui
+Raspbian
+Oracle
